@@ -34,6 +34,7 @@ class ArticleScreen extends StatelessWidget {
               //
               // ),
             ),
+
             ListTile(
               title: Text(articleItem.author ?? ""),
               subtitle: Text(articleItem.publishedAt.toString()),
